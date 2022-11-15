@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Runway4W": {
+    "runway4w": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -126,5 +126,5 @@
       }
     }
   },
-  "defaultProject": "Runway4W"
+  "defaultProject": "runway4w"
 }
