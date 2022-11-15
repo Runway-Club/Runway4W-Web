@@ -1,0 +1,44 @@
+#rwc-navbar {
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    position: absolute;
+    width: 100%;
+    background:#fff;
+    padding: 5px;
+}
+
+#rwc-address-input {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    margin-right: 30px;
+}
+
+#rwc-address-input-placeholder {
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 1.0rem;
+    color: #333;
+    outline: none;
+    font-weight: bold;
+}
+
+.rwc-bt {
+    background: #426ef0;
+    border: 1px solid #426ef0;
+    border-radius: 30px;
+    padding:5px;
+    color: #fff;
+    
+}
+
+.rwc-bt:hover {
+    background: #fff;
+    color: #426ef0;
+}

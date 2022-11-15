@@ -1,0 +1,4 @@
+<app-navbar></app-navbar>
+<div style="position: fixed; width: 100%; height: 100%;" class="map" leaflet [leafletOptions]="location.options"
+     [(leafletCenter)]="location.options.center" (leafletMapMove)="location.getAddress()">
+</div>
